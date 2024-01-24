@@ -15,9 +15,6 @@ from pathlib import Path
 if os.path.exists("env.py"):
     import env # noqa
 
-if os.path.exists("env.py"):
-    import env # noqa
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -31,7 +28,10 @@ SECRET_KEY = 'django-insecure-vj0tq)xqsdl&^3x-qdeww7&kg(mqca4843z3u!yo@8k%@ou3as
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-leoniemclaughlin7-boutiq-qsiurubs3l.us2.codeanyapp.com']
+ALLOWED_HOSTS = [
+    '8000-leoniemclaughlin7-boutiq-qsiurubs3l.us2.codeanyapp.com',
+    '8000-leoniemclau-boutiqueado-n6d16mlmy34.ws-eu107.gitpod.io'
+    ]
 
 
 # Application definition

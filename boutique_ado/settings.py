@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-leoniemclau-boutiqueado-n6d16mlmy34.ws-eu107.gitpod.io', 
-    'https://boutique-ado-lmclaughlin-492f3fc9d0b9.herokuapp.com/'
+    'boutique-ado-lmclaughlin-492f3fc9d0b9.herokuapp.com'
     ]
 
 
